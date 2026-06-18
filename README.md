@@ -45,7 +45,7 @@ authentication library for iOS, distributed via Swift Package Manager.
 1. In Xcode: **File ▸ Add Package Dependencies…**
 2. Enter the repository URL:
    ```
-   https://github.com/nkarakasmirket/Mirket-Mobile-IOS-App-SDK.git
+   https://github.com/nkarakasmirket/Mobile-MFA-INT-IOS-App-SDK.git
    ```
 3. Choose a version rule (e.g. **Up to Next Major Version** → `1.0.0`).
 4. Add the **MirketAuthSDK** product to your target.
@@ -55,7 +55,7 @@ authentication library for iOS, distributed via Swift Package Manager.
 ```swift
 dependencies: [
     .package(
-        url: "https://github.com/nkarakasmirket/Mirket-Mobile-IOS-App-SDK.git",
+        url: "https://github.com/nkarakasmirket/Mobile-MFA-INT-IOS-App-SDK.git",
         from: "1.0.0"
     )
 ],
@@ -63,7 +63,7 @@ targets: [
     .target(
         name: "YourApp",
         dependencies: [
-            .product(name: "MirketAuthSDK", package: "Mirket-Mobile-IOS-App-SDK")
+            .product(name: "MirketAuthSDK", package: "Mobile-MFA-INT-IOS-App-SDK")
         ]
     )
 ]
